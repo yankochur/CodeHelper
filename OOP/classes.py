@@ -11,7 +11,7 @@ class Dog:
         self.name = name
 
     def walk(self, place):
-        print(f'Собака породы {self.breed}, цвет {self.color}, идёт в {place}. Ей {self.age} лет.')
+        print(f'Собака породы {self.breed}, цвет {self.color}, идёт {place}. Ей {self.age} лет.')
 
 
 dog1 = Dog('Белый', 0.8, 'Французский бульдог', 'Йода')
@@ -35,4 +35,4 @@ dog2 = Yato('Рыжий', 1.8, 'Корги', 'Ято', 'Плохой')
 
 print(dog2.color, dog2.age, dog2.breed, dog2.name, dog2.behavior)
 dog2.pissing()
-dog2.walk('Домой')
+dog2.walk('на улицу')
