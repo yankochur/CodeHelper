@@ -36,3 +36,4 @@ dog2 = Yato('Рыжий', 1.8, 'Корги', 'Ято', 'Плохой')
 print(dog2.color, dog2.age, dog2.breed, dog2.name, dog2.behavior)
 dog2.pissing()
 dog2.walk('на улицу')
+#hehe
